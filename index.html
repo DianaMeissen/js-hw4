@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Slider</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+	<style type="text/css">
+		.slider__item {
+			transform: none;
+			flex: 0 0 50%;
+			max-width: 50%;
+		}
+	</style>
+</head>
+<body>
+	<div class="slider">
+	<div class="wrapper">
+		<div class="slider__item">
+			<div style="height: 250px; background: orange;"><p>1</p></div>
+		</div>
+		<div class="slider__item">
+			<div style="height: 250px; background: violet;"><p>2</p></div>
+		</div>
+		<div class="slider__item">
+			<div style="height: 250px; background: coral;"><p>3</p></div>
+		</div>
+		<div class="slider__item">
+			<div style="height: 250px; background: yellow;"><p>4</p></div>
+		</div>
+		<a class="slider__control slider__control_left" href="#" role="button"><i class="fas fa-angle-left"></i></a>
+    	<a class="slider__control slider__control_right slider__control_show" href="#" role="button"><i class="fas fa-angle-right"></i></a>
+	</div>
+</div>
+	<script src="func.js"></script>
+</body>
+</html>
